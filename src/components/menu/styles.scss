@@ -1,0 +1,30 @@
+.MenuContainer {
+  border: #cfcfe4 1px solid;
+  border-radius: 18px;
+  padding: 12px;
+  width: 264px;
+  position: fixed;
+}
+
+.MenuRow {
+  max-height: 42px;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.ActiveRow {
+  background: #5FBF77;
+}
+
+.RowLabel {
+  font-size: 18px;
+  color: #39414B;
+  font-weight: 800;
+}
+
+.ActiveRowLabel {
+  color: #FFFFFF;
+}
+
+
