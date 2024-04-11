@@ -9,13 +9,19 @@
 
 .Category {
   min-height: 210px;
-  width: calc((100% - 36px) /3);
+  width: calc((100% - 36px) / 3);
   min-width: 177px;
   display: flex;
   flex-direction: column;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 10px 13px -4px rgba(35, 35, 95, 0.19);
+  @media (max-width: 903px) {
+    width: calc((100% - 18px) / 2);
+  }
+  @media (max-width: 708px) {
+    width: 100%;
+  }
 }
 
 .CategoryImageWrapper {
